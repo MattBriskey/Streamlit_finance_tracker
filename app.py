@@ -12,7 +12,7 @@ incomes = ["Salary", "Blog", "Other Income"]
 expenses = ["Rent", "Utilities", "Groceries", "Car", "Other Expenses", "Saving"]
 currency = "USD"
 page_title = "Income and Expense Tracker"
-page_icon = ":heavy_dollar_sign:"  # emojis: https://www.webfx.com/tools/emoji-cheat-sheet/
+page_icon = ":money_bag:"  # emojis: https://streamlit-emoji-shortcodes-streamlit-app-gwckff.streamlit.app/
 layout = "centered"
 # --------------------------------------
 
