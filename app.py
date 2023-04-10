@@ -1,5 +1,5 @@
-import calendar  # Core Python Module
-from datetime import datetime  # Core Python Module
+import calendar  # Python Module
+from datetime import datetime  # Python Module
 
 import plotly.graph_objects as go  # pip install plotly
 import streamlit as st  # pip install streamlit
@@ -20,8 +20,8 @@ st.set_page_config(page_title=page_title, page_icon=page_icon, layout=layout)
 st.title(page_title + " " + page_icon)
 
 # --- DROP DOWN VALUES FOR SELECTING THE PERIOD ---
-years = [datetime.today().year, datetime.today().year + 1]
-months = list(calendar.month_name[1:])
+years = [datetime.today().year, datetime.today().year + 1] # current year and next year
+months = list(calendar.month_name[1:]) #list of months
 
 
 # --- DATABASE INTERFACE ---
@@ -111,7 +111,7 @@ if selected == "Data Visualization":
             node = dict(label=label, pad=20, thickness=30, color="#6EBD8F")
             data = go.Sankey(link=link, node=node)
 
-            # Plot it!
+            # Plot the data
             fig = go.Figure(data)
             fig.update_layout(margin=dict(l=0, r=0, t=5, b=5))
             st.plotly_chart(fig, use_container_width=True)
