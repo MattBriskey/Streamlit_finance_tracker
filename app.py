@@ -8,7 +8,7 @@ from streamlit_option_menu import option_menu  # pip install streamlit-option-me
 import database as db  # local import
 
 # -------------- SETTINGS --------------
-incomes = ["Salary", "Blog", "Other Income"]
+incomes = ["Salary", "Freelance", "Other Income"]
 expenses = ["Rent", "Utilities", "Groceries", "Car", "Other Expenses", "Saving"]
 currency = "USD"
 page_title = "Income and Expense Tracker"
