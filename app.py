@@ -12,7 +12,7 @@ incomes = ["Salary", "Blog", "Other Income"]
 expenses = ["Rent", "Utilities", "Groceries", "Car", "Other Expenses", "Saving"]
 currency = "USD"
 page_title = "Income and Expense Tracker"
-page_icon = ":money_with_wings:"  # emojis: https://www.webfx.com/tools/emoji-cheat-sheet/
+page_icon = ":money_bag:"  # emojis: https://www.webfx.com/tools/emoji-cheat-sheet/
 layout = "centered"
 # --------------------------------------
 
@@ -108,7 +108,7 @@ if selected == "Data Visualization":
 
             # Data to dict, dict to sankey
             link = dict(source=source, target=target, value=value)
-            node = dict(label=label, pad=20, thickness=30, color="#E694FF")
+            node = dict(label=label, pad=20, thickness=30, color="#6EBD8F")
             data = go.Sankey(link=link, node=node)
 
             # Plot it!
