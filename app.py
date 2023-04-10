@@ -12,7 +12,7 @@ incomes = ["Salary", "Blog", "Other Income"]
 expenses = ["Rent", "Utilities", "Groceries", "Car", "Other Expenses", "Saving"]
 currency = "USD"
 page_title = "Income and Expense Tracker"
-page_icon = ":money_bag:"  # emojis: https://www.webfx.com/tools/emoji-cheat-sheet/
+page_icon = ":money_with_wings:"  # emojis: https://www.webfx.com/tools/emoji-cheat-sheet/
 layout = "centered"
 # --------------------------------------
 
