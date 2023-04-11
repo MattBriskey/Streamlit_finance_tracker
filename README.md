@@ -7,6 +7,6 @@ Website
 https://mattbriskey-streamlit-finance-tracker-app-prl1wb.streamlit.app/
 
 
-Gif
+Gif Demo
 ---
 ![](https://github.com/MattBriskey/Streamlit_finance_tracker/blob/main/Demo.gif)
