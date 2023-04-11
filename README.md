@@ -9,4 +9,4 @@ https://mattbriskey-streamlit-finance-tracker-app-prl1wb.streamlit.app/
 
 Gif
 ---
-![](https://github.com/Your_Repository_Name/Your_GIF_Name.gif)
+![](https://github.com/MattBriskey/Streamlit_finance_tracker/blob/main/Demo.gif)
